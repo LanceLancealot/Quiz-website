@@ -28,8 +28,9 @@ git clone https://github.com/your-username/quiz-website.git
 Navigate to the project folder and open the index.html file in a web browser to start using the quiz website.
 
 Screenshot:
+![Screenshot (4)](https://github.com/LanceLancealot/Quiz-website/assets/132924736/97f72443-02fa-465b-a749-c30ece16d450)
 
-Website Link:
+Website Link:https://lancelancealot.github.io/Quiz-website/
 
 Contributing
 Contributions are welcome! If you have suggestions, bug reports, or want to add new quiz topics, feel free to create an issue or submit a pull request.
