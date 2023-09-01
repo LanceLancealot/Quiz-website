@@ -1,0 +1,189 @@
+/* Reset default margin and padding for the whole page */
+body, h1, h2, ul, li {
+  margin: 0;
+  padding: 0;
+}
+
+/* Body styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #121d33;
+  color: white;
+}
+
+/* Header styles */
+header {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+}
+
+/* Main content styles */
+main {
+  padding: 2rem;
+}
+
+/* Quiz container animation */
+#quiz-container {
+  animation: fade-in 0.5s ease-in-out;
+}
+
+/* Result container styles */
+#result-container {
+  display: none;
+  text-align: center;
+  animation: fade-in 0.5s ease-in-out;
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* Button styles */
+button {
+  background-color: #2979ff;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  margin-top: 1rem;
+  border-radius: 5px;
+  transition: background-color 0.3s ease-in-out;
+}
+
+button:hover {
+  background-color: #1c5dc4;
+}
+
+/* Input text styles */
+input[type="text"] {
+  padding: 0.5rem;
+  width: 100%;
+  margin-top: 0.5rem;
+  border: none;
+  background-color: #263238;
+  color: white;
+  border-radius: 5px;
+}
+
+/* Question container styles */
+.question {
+  background-color: #263238;
+  border-radius: 5px;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  text-align: center; /* Center-align the question text */
+}
+
+.question h2 {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+/* Styling for each set of options */
+#options-0,
+#options-1,
+#options-2,
+#options-3,
+#options-4 {
+  list-style-type: none;
+  padding: 0;
+}
+
+#options-0 li,
+#options-1 li,
+#options-2 li,
+#options-3 li,
+#options-4 li {
+  margin-bottom: 0.5rem;
+}
+
+#options-0 button,
+#options-1 button,
+#options-2 button,
+#options-3 button,
+#options-4 button {
+  width: 100%;
+}
+
+/* Result container heading styles */
+#result-container h2 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+/* Result container paragraph styles */
+#result-container p {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+/* Timer styles */
+#timer {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+  color: #2979ff; /* Timer color */
+}
+
+#timer-value {
+  font-weight: bold;
+}
+input[type="text"] {
+  padding: 0.5rem;
+  width: 60px; /* Adjust the width as needed */
+  margin-top: 0.5rem;
+  border: none;
+  background-color: #263238;
+  color: white;
+  border-radius: 5px;
+}
+/* Styling for the scoreboard */
+#scoreboard {
+  text-align: center;
+  margin-top: 2rem;
+  border-top: 2px solid white;
+  padding-top: 1rem;
+}
+
+#scoreboard h2 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.score-entry {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+}
+
+/* Styling for the initials and score display */
+.initials-display {
+  font-weight: bold;
+  margin-right: 0.5rem;
+}
+
+.score-display {
+  color: #2979ff; /* Score color */
+}
+
+/* Styling for the "Clear Scores" button */
+#clear-scores {
+  background-color: #e53935; /* Red color */
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  margin-top: 1rem;
+  border-radius: 5px;
+  transition: background-color 0.3s ease-in-out;
+}
+
+#clear-scores:hover {
+  background-color: #c62828; /* Darker red color on hover */
+}
+

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/styles.css">
+    <title>Coding Quiz</title>
+</head>
+<body>
+    <!-- Header section -->
+    <header>
+        <h1>Coding Quiz</h1>
+    </header>
+    <main>
+      <!-- Timer display -->
+      <div id="timer">Time left: <span id="timer-value">60</span> seconds</div>
+      <!-- Quiz container section -->
+      <section id="quiz-container">
+        <!-- Question and options will be displayed here -->
+        <div id="question"></div>
+        <ul id="options"></ul>
+    </section>
+        <!-- Result container section -->
+        <section id="result-container" class="hidden">
+            <h2>Your Result</h2>
+            <!-- Display the final score as a fraction -->
+            <p id="final-score">Your final score is <span id="score">0</span>.</p>
+            <!-- Input for user's initials and save button -->
+            <label for="initials">Enter your initials:</label>
+            <input type="text" id="initials" maxlength="3">
+            <button id="save-score">Save</button>
+        </section>
+        <section id="scoreboard" class="hidden">
+            <h2>Scoreboard</h2>
+            <ul id="score-list"></ul>
+        </section>
+    </main>
+    <script src="./assets/script.js"></script>
+</body>
+</html>
